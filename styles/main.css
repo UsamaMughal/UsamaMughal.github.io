@@ -1,0 +1,110 @@
+body {
+	background: #8b4bcc;
+	font-family: 'ABeeZee';
+	color: #6A6A6A;
+	padding: 0em 1em 1em 1em;
+
+/*	background-image: url("../assets/back.jpg");
+	background-repeat: repeat;
+	*/
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 25%;
+
+    max-width: 300px
+}
+
+#game img{
+
+	width: 80%;
+	max-width: 900px;
+	height: auto;
+	margin-top: 5%;
+	margin-bottom: 2%;
+
+	display: block;
+    margin: auto;
+}
+p , li{
+	font-size: 20px;
+}
+a {
+	color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+a:hover {
+	color: red;
+ }
+
+#footer {
+	width: 30%;
+	height:auto;
+	margin: auto;
+	text-align:  center;
+	padding: 1em;
+	color: white;
+/*
+	background: white;
+ -webkit-box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.08);
+	-moz-box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.08);
+	box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.08);
+
+*/
+}
+#footer a {
+	padding:1em;
+    text-align: center;
+    display: block; 
+    text-decoration: underline;
+    margin:auto;
+    font-size: 22px;
+    color:  white;
+}
+#footer a:hover {
+	color: black;
+ }
+#container {
+	overflow:hidden;
+	position:relative;
+	display:block;
+    max-height:auto;
+	width:75%;
+    margin:auto;
+	margin-top:0px;
+	padding: 2em;
+    background: white;
+
+    -webkit-box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.08);
+	-moz-box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.08);
+	box-shadow: 0px 0px 20px 6px rgba(0,0,0,0.08);
+
+}
+#containerH {
+	overflow:hidden;
+	position:relative;
+	display:block;
+    max-height:auto;
+	
+    margin:auto;
+	margin-top:0px;
+	padding: 2em;
+
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+#button{
+	display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+
+}
