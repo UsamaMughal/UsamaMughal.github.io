@@ -108,3 +108,24 @@ img{
     height: auto;
 
 }
+
+#secret {
+	color: #864ac3;
+}
+#secret:hover{
+	color: #892be8;
+}
+#cheat {
+	height: 100px;
+	width: 300px;
+	background: black;
+	margin-left: -310px;
+	transition:margin-left 0.5s ease-in-out 0s;
+}
+#cheat:hover {
+	height: 100px;
+	width: 300px;
+	background: black;
+	margin-left: -50px;
+
+}
